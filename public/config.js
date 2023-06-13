@@ -29,6 +29,32 @@ window.CONFIG = {
       pinned: true
     },
     {
+      category: 'Entertainment',
+      name: 'YouTube Music',
+      triggers: [
+        'ytm',
+      ],
+      key: 'KeyYM',
+      icon: 'youtube',
+      url: 'https://music.youtube.com',
+      normalisedURL: 'youtube.com',
+      commands: {
+        go: {
+          template: '{@}/watch?v={$}',
+          description: 'go to music'
+        },
+        search: {
+          template: '{@}/search?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#f30002'
+      },
+      textColor: '#212121',
+      pinned: true
+    },
+    {
       category: 'Communication',
       name: 'Telegram',
       icon: 'telegram',
