@@ -320,31 +320,6 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Social',
-      name: 'Twitch',
-      icon: 'twitch',
-      url: 'https://twitch.tv',
-      normalisedURL: 'twitch.tv',
-      triggers: [
-        'tw',
-        'twitch',
-      ],
-      commands: {
-        search: {
-          template: '{@}/search?term={$}'
-        },
-        go: {
-          template: '{@}/{$}'
-        }
-      },
-      bgColor: {
-        type: 'solid',
-        color: '#8c44f7'
-      },
-      textColor: '#000',
-      pinned: true
-    },
-    {
       category: 'Entertainment',
       name: 'Netflix',
       triggers: [
@@ -395,32 +370,6 @@ window.CONFIG = {
         color: '#1c99e6'
       },
       textColor: '#e8e8e8',
-      pinned: true
-    },
-    {
-      category: 'Work',
-      name: 'Linkedin',
-      icon: 'linkedin',
-      key: 'KeyL',
-      triggers: [
-        'l',
-        'lk',
-        'li',
-        'linked',
-        'linkedin'
-      ],
-      url: 'https://linkedin.com',
-      normalisedURL: 'linkedin.com',
-      commands: {
-        search: {
-          template: '{@}/search/results/all/?keywords={$}'
-        }
-      },
-      bgColor: {
-        type: 'solid',
-        color: '#0077b7'
-      },
-      textColor: '#fff',
       pinned: true
     },
     {
