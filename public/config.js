@@ -4,6 +4,24 @@ window.CONFIG = {
       category: 'Entertainment',
       name: 'YouTube',
       triggers: [
+        'p',
+        'pr',
+      ],
+      key: 'KeyP',
+      icon: 'pornhub',
+      url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
+      normalisedURL: 'youtube.com',
+      bgColor: {
+        type: 'solid',
+        color: '#ffff00'
+      },
+      textColor: '#212121',
+      pinned: true
+    },
+    {
+      category: 'Entertainment',
+      name: 'YouTube',
+      triggers: [
         'y',
         'yt',
         'youtube',
